@@ -25,8 +25,8 @@ const Login = () => {
       <div>
         <h1>Login</h1>
         <form onClick={formik.handleSubmit}>
-          <input onChange={formik.handleChange} value={formik.values.username} name="username" type="text" placeholder="Enter your username" />
-          <input onChange={formik.handleChange} value={formik.values.password} name="password" type="password" placeholder="Enter your password" />
+          <input onChange={formik.handleChange} value={formik.values.username} name="username" type="text" placeholder="Enter your username" /><br/>
+          <input onChange={formik.handleChange} value={formik.values.password} name="password" type="password" placeholder="Enter your password" /><br/>
           <button>Submit</button>
         </form>
       </div>
