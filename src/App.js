@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Login from "./pages/Login" 
 import Error404 from "./pages/Error404"
 
+import "./App.css"
 import Nav from "./components/Nav"
 
 const App = () => {

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 const Nav = () => {
   return (
-    <nav>
-      <p><Link to="/">Home</Link></p>
-      <p><Link to="/Login">Login</Link></p>
+    <nav className="nav flex">
+      <p><Link to="/" className="links">Home</Link></p>
+      <p><Link to="/Login" className="links">Login</Link></p>
     </nav>
   )
 }
